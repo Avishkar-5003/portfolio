@@ -114,14 +114,23 @@ function Projects() {
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
+            <div className="project-buttons">
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
 
-            <a
-              href="https://github.com/Avishkar-5003"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
 
         </div>
