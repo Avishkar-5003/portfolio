@@ -3,7 +3,6 @@ import "./Projects.css";
 function Projects() {
   return (
     <section className="projects" id="projects">
-
       <div className="section-title">
         <h2>My Projects</h2>
         <p>Here are some projects I've worked on.</p>
@@ -12,16 +11,13 @@ function Projects() {
       <div className="project-container">
 
         {/* Hostel Hub */}
-
         <div className="project-card">
-
           <img
             src="/images/hostelhub.png"
             alt="Hostel Hub"
           />
 
           <div className="project-content">
-
             <h3>Hostel Hub</h3>
 
             <span className="duration">July 2025</span>
@@ -42,25 +38,33 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-              <a href="#">GitHub</a>
-              <a href="#">Live Demo</a>
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
             </div>
-
           </div>
-
         </div>
 
         {/* Hospital Management */}
-
         <div className="project-card">
-
           <img
             src="/images/hospital.png"
             alt="Hospital Management"
           />
 
           <div className="project-content">
-
             <h3>Hospital Management System</h3>
 
             <span className="duration">March 2024</span>
@@ -80,25 +84,33 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-              <a href="#">GitHub</a>
-              <a href="#">Live Demo</a>
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://github.com/Avishkar-5003"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
             </div>
-
           </div>
-
         </div>
 
         {/* Portfolio */}
-
         <div className="project-card">
-
           <img
             src="/images/portfolio.png"
             alt="Portfolio"
           />
 
           <div className="project-content">
-
             <h3>Personal Portfolio</h3>
 
             <span className="duration">2026</span>
@@ -114,6 +126,7 @@ function Projects() {
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
+
             <div className="project-buttons">
               <a
                 href="https://github.com/Avishkar-5003"
@@ -132,11 +145,9 @@ function Projects() {
               </a>
             </div>
           </div>
-
         </div>
 
       </div>
-
     </section>
   );
 }
